@@ -1,0 +1,8 @@
+# Ignorer certains fichiers lors du build
+**/node_modules/**
+**/.next/**
+**/build/**
+**/dist/**
+
+# Si vous voulez ignorer complètement certains fichiers problématiques
+# src/views/surete/comite/timelineComite.tsx

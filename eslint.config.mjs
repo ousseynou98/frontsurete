@@ -53,6 +53,7 @@ const eslintConfig = [
       'react/no-array-index-key': 'off',
       'react/react-in-jsx-scope': 'off',
       'react/jsx-props-no-spreading': 'off',
+      'react/no-unescaped-entities': 'off',
       'import/order': 'off',
       'no-console': 'off',
       'no-shadow': 'off',

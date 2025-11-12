@@ -651,7 +651,7 @@ export default function StateComite({ comite }: { comite?: Comite }) {
                         default:
                             return (
                                 <Box sx={{ p: 3 }}>
-                                    Vous êtes sur l'onglet : <strong>{tabLabels[value] ?? ""}</strong>
+                                    Vous êtes sur l&apos;onglet : <strong>{tabLabels[value] ?? &quot;&quot;}</strong>
                                 </Box>
                             );
                     }

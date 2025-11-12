@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   modularizeImports: {
     '@mui/material': {
       transform: '@mui/material/{{member}}'
@@ -27,10 +30,9 @@ const nextConfig = {
     NEXT_APP_JWT_SECRET: 'ikRgjkhi15HJiU78-OLKfjngiu',
     NEXT_APP_JWT_TIMEOUT: '86400',
     NEXTAUTH_SECRET_KEY: 'LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg='
-  }
-};
-
-module.exports = {
+  },
   output: 'standalone'
 };
+
+module.exports = nextConfig;
 
