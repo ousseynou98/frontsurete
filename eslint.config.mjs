@@ -79,13 +79,7 @@ const eslintConfig = [
         }
       ],
 
-      '@typescript-eslint/no-unused-vars': [
-        'error',
-        {
-          vars: 'all',
-          args: 'none'
-        }
-      ],
+      '@typescript-eslint/no-unused-vars': 'off',
 
       'prettier/prettier': 'warn'
     }

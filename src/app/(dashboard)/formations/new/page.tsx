@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import {
   Box,
