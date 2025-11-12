@@ -95,7 +95,7 @@ export default function TabAccount() {
               <ListItemText
                 id="switch-list-label-sb"
                 primary="Secure Browsing"
-                secondary="Browsing Securely ( https ) when it's necessary"
+                secondary="Browsing Securely ( https ) when it&apos;s necessary"
               />
               <Switch
                 edge="end"

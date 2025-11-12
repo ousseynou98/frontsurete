@@ -185,7 +185,7 @@ function IpListCard() {
                   </Box>
                   <Box sx={{ flex: 1 }}>
                   <label htmlFor="expiredDate" style={{ display: 'block', marginBottom: 6, fontWeight: 600 }}>
-                  Date d'expiration
+                  Date d&apos;expiration
                   </label>
                   <input name="expiredDate" id="expiredDate" type="date" style={{ width: '100%', padding: 10, borderRadius: 6, border: '1px solid #e0e0e0' }} />
                   </Box>
@@ -227,7 +227,7 @@ function IpListCard() {
                   Annuler
                   </Button>
                   <Button type="submit" variant="contained" color="primary">
-                  Créer l'IP
+                  Créer l&apos;IP
                   </Button>
                   </Stack>
                 </Stack>
@@ -290,7 +290,7 @@ function IpCommonCard({
               <Stack direction="row" sx={{ gap: 1, alignItems: 'center' }}>
                 <Calendar size={14} />
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                  Date d'expiration <Box component="span" sx={{ fontWeight: 600 }}>{formatDateOrDash(ip.expiredDate)}</Box>
+                  Date d&apos;expiration <Box component="span" sx={{ fontWeight: 600 }}>{formatDateOrDash(ip.expiredDate)}</Box>
                 </Typography>
               </Stack>
               
@@ -310,7 +310,7 @@ function IpCommonCard({
               color="primary"
               onClick={() => router.push('/plan-surete/ips/details/' + ip.id)}
             >
-              Voir l'installation Portuaires
+              Voir l&apos;installation Portuaires
             </Button>
             <Button startIcon={<Trash />} variant="dashed" sx={{ border: 'none' }} color="error">
               Supprimer

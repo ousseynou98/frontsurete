@@ -68,7 +68,7 @@ function IncomingRequests({
               <Stack direction="row" sx={{ gap: 1, alignItems: 'center' }}>
                 <Calendar size={14} />
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                  Date d'expiration <Box component="span" sx={{ fontWeight: 600 }}>{formatDateOrDash(ip.expiredDate)}</Box>
+                  Date d&apos;expiration <Box component="span" sx={{ fontWeight: 600 }}>{formatDateOrDash(ip.expiredDate)}</Box>
                 </Typography>
               </Stack>
               

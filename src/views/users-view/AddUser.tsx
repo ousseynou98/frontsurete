@@ -180,7 +180,7 @@ const AddUser = () => {
               </Box>
               <Stack sx={{ gap: 0.75 }}>
                 <Typography variant="h5">Creer un utilisateur</Typography>
-                <Typography variant="body2">Creation d'un compte utilisateur</Typography>
+                <Typography variant="body2">Creation d&apos;un compte utilisateur</Typography>
               </Stack>
             </Stack>
           </Grid>

@@ -20,7 +20,7 @@ import { TickCircle } from '@wandersonalwes/iconsax-react';
 export default function TimelineComite() {
   return (
     <MainCard
-      title="État d'avancement du plan de sûreté"
+      title="État d&apos;avancement du plan de sûreté"
       content={false}
       secondary={
         <Links component={Link} href="#" color="primary">

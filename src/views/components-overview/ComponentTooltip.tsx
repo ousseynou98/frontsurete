@@ -388,7 +388,7 @@ Nullam eget est sed sem iaculis gravida eget vitae justo.`;
               <MainCard title="Disabled Tooltips" codeString={disabledTooltipsCodeString}>
                 <Grid container spacing={1} sx={{ alignItems: 'center' }}>
                   <Grid>
-                    <Tooltip title="You don't have permission to do this">
+                    <Tooltip title="You don&apos;t have permission to do this">
                       <span>
                         <Button disabled>A Disabled Button</Button>
                       </span>

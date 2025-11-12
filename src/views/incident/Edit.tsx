@@ -241,7 +241,7 @@ export default function EditIncidentPage() {
   // Show loading state
   if (isLoading) {
     return (
-      <MainCard title="Modification d'incident">
+      <MainCard title="Modification d&apos;incident">
         <Box display="flex" justifyContent="center" alignItems="center" minHeight="400px">
           <CircularProgress />
         </Box>
@@ -252,7 +252,7 @@ export default function EditIncidentPage() {
   // Show error if incident not found
   if (error && !form.type) {
     return (
-      <MainCard title="Modification d'incident">
+      <MainCard title="Modification d&apos;incident">
         <Alert severity="error" sx={{ mb: 2 }}>
           {error}
         </Alert>
@@ -264,7 +264,7 @@ export default function EditIncidentPage() {
   }
 
   return (
-    <MainCard title="Modifier l'incident">
+    <MainCard title="Modifier l&apos;incident">
       <Box component="form" onSubmit={handleSubmit} sx={{ mt: 2 }}>
         <Grid sx={{ display: 'grid', gap: 3 }}>
           {(error || successMessage) && (
@@ -276,7 +276,7 @@ export default function EditIncidentPage() {
 
           <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 3 }}>
             <Stack spacing={1}>
-              <InputLabel required>Type d'incident</InputLabel>
+              <InputLabel required>Type d&apos;incident</InputLabel>
               <TextField
                 name="type"
                 value={form.type}
@@ -285,7 +285,7 @@ export default function EditIncidentPage() {
                 placeholder="Ex: Intrusion, Dégradation..."
                 disabled={isSubmitting}
               />
-              <FormHelperText>Spécifiez le type d'incident</FormHelperText>
+              <FormHelperText>Spécifiez le type d&apos;incident</FormHelperText>
             </Stack>
 
             <Stack spacing={1}>
@@ -319,7 +319,7 @@ export default function EditIncidentPage() {
                 >
                   <MenuItem value="SIGNALE">Signalé</MenuItem>
                   <MenuItem value="DECLARE">Déclaré</MenuItem>
-                  <MenuItem value="EN_COURS_EVALUATION">En cours d'évaluation</MenuItem>
+                  <MenuItem value="EN_COURS_EVALUATION">En cours d&apos;évaluation</MenuItem>
                   <MenuItem value="CONFIRME">Confirmé</MenuItem>
                   <MenuItem value="EN_COURS_TRAITEMENT">En cours de traitement</MenuItem>
                   <MenuItem value="EN_COURS">En cours</MenuItem>
@@ -327,7 +327,7 @@ export default function EditIncidentPage() {
                   <MenuItem value="CLOTURE">Clôturé</MenuItem>
                   <MenuItem value="ARCHIVE">Archivé</MenuItem>
                 </Select>
-                <FormHelperText>Sélectionnez le statut de l'incident</FormHelperText>
+                <FormHelperText>Sélectionnez le statut de l&apos;incident</FormHelperText>
               </FormControl>
             </Stack>
 
@@ -366,7 +366,7 @@ export default function EditIncidentPage() {
               placeholder="Ex: Terminal conteneurs - Quai 7"
               disabled={isSubmitting}
             />
-            <FormHelperText>Précisez l'emplacement exact de l'incident</FormHelperText>
+            <FormHelperText>Précisez l&apos;emplacement exact de l&apos;incident</FormHelperText>
           </Stack>
 
           <Stack spacing={1}>
@@ -378,11 +378,11 @@ export default function EditIncidentPage() {
               multiline
               rows={4}
               fullWidth
-              placeholder="Décrivez en détail l'incident..."
+              placeholder="Décrivez en détail l&apos;incident..."
               disabled={isSubmitting}
             />
             <FormHelperText>
-              Fournissez tous les détails pertinents concernant l'incident
+              Fournissez tous les détails pertinents concernant l&apos;incident
             </FormHelperText>
           </Stack>
 

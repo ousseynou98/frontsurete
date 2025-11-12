@@ -468,7 +468,7 @@ export default function IncidentActions({ incidentId }: { incidentId?: string })
     <MainCard sx={{ p: 0 }} content={false}>
       <Box sx={{ p: 3, pb: 0 }}>
         <Stack direction="row" alignItems="center" justifyContent="space-between">
-          <Typography variant="h5">Actions de l'incident</Typography>
+          <Typography variant="h5">Actions de l&apos;incident</Typography>
           <Stack direction="row" spacing={1}>
             <Chip label={`${items.length} action${items.length > 1 ? 's' : ''}`} size="small" color="primary" variant="light" />
             <Button variant="contained" size="small" startIcon={<DocumentUpload />} onClick={handleOpenCreate}>
@@ -900,7 +900,7 @@ export default function IncidentActions({ incidentId }: { incidentId?: string })
                   ))
                 )}
               </Select>
-              <FormHelperText>Sélectionnez l'entité concernée</FormHelperText>
+              <FormHelperText>Sélectionnez l&apos;entité concernée</FormHelperText>
             </FormControl>
             <Box />
           </Box>

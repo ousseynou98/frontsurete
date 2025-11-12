@@ -229,7 +229,7 @@ export default function CreateIncidentPage() {
 
           <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 3 }}>
             <Stack spacing={1}>
-              <InputLabel required>Type d'incident</InputLabel>
+              <InputLabel required>Type d&apos;incident</InputLabel>
               <TextField
                 name="type"
                 value={form.type}
@@ -238,7 +238,7 @@ export default function CreateIncidentPage() {
                 placeholder="Ex: Intrusion, Dégradation..."
                 disabled={isSubmitting}
               />
-              <FormHelperText>Spécifiez le type d'incident</FormHelperText>
+              <FormHelperText>Spécifiez le type d&apos;incident</FormHelperText>
             </Stack>
 
             <Stack spacing={1}>
@@ -277,7 +277,7 @@ export default function CreateIncidentPage() {
               <MenuItem value="RESOLU">Résolu</MenuItem>
               <MenuItem value="ARCHIVE">Archivé</MenuItem>
             </Select>
-            <FormHelperText>Sélectionnez le statut de l'incident</FormHelperText>
+            <FormHelperText>Sélectionnez le statut de l&apos;incident</FormHelperText>
             </FormControl>
           </Stack>
 
@@ -316,7 +316,7 @@ export default function CreateIncidentPage() {
               placeholder="Ex: Terminal conteneurs - Quai 7"
               disabled={isSubmitting}
             />
-            <FormHelperText>Précisez l'emplacement exact de l'incident</FormHelperText>
+            <FormHelperText>Précisez l&apos;emplacement exact de l&apos;incident</FormHelperText>
           </Stack>
 
           <Stack spacing={1}>
@@ -328,11 +328,11 @@ export default function CreateIncidentPage() {
               multiline
               rows={4}
               fullWidth
-              placeholder="Décrivez en détail l'incident..."
+              placeholder="Décrivez en détail l&apos;incident..."
               disabled={isSubmitting}
             />
             <FormHelperText>
-              Fournissez tous les détails pertinents concernant l'incident
+              Fournissez tous les détails pertinents concernant l&apos;incident
             </FormHelperText>
           </Stack>
 

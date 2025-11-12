@@ -116,7 +116,7 @@ export default function NotificationPage() {
                           component={ListItemButton}
                           secondaryAction={
                             <Typography variant="caption" noWrap>
-                             Aujourd'hui
+                             Aujourd&apos;hui
                             </Typography>
                           }
                         >
@@ -137,7 +137,7 @@ export default function NotificationPage() {
                                 </Typography>
                               </Typography>
                             }
-                            secondary="Aujourd'hui"
+                            secondary="Aujourd&apos;hui"
                           />
                         </ListItem>
                       </List>

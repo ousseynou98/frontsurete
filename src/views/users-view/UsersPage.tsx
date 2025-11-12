@@ -401,7 +401,7 @@ const UsersPage = () => {
           <Stack direction="row" alignItems="center" justifyContent="center" spacing={0.5}>
             {/* Activer / Désactiver */}
             {user.isActive ? (
-              <Tooltip title="Désactiver l'utilisateur">
+              <Tooltip title="Désactiver l&apos;utilisateur">
                 <IconButton
                   color="success"
                   onClick={() => handleDeactivateUser(user.id)} //  utiliser user.id
@@ -410,7 +410,7 @@ const UsersPage = () => {
                 </IconButton>
               </Tooltip>
             ) : (
-              <Tooltip title="Activer l'utilisateur">
+              <Tooltip title="Activer l&apos;utilisateur">
                 <IconButton
                   color="error"
                   onClick={() => handleActivateUser(user.id)} //  utiliser user.id
